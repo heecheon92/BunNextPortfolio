@@ -9,12 +9,13 @@
     "lint": "tsc && next lint",
     "lint:fix": "tsc && next lint --fix",
     "pret": "prettier . --check",
-    "pret:fix": "prettier . --write"
+    "pret:fix": "prettier . --write",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@tanstack/eslint-plugin-query": "latest",
@@ -31,6 +32,7 @@
     "eslint-plugin-react-hooks": "latest",
     "eslint-plugin-testing-library": "latest",
     "eslint-plugin-unused-imports": "latest",
+    "husky": "^8.0.3",
     "import-sort-style-module": "^6.0.0",
     "postcss": "latest",
     "prettier": "^3.0.3",
