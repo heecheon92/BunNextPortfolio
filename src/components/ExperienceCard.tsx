@@ -7,14 +7,14 @@ export default function ExperienceCard() {
   return (
     <article className="flex w-[500px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 rounded-lg bg-[#292929] p-10 opacity-40 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]">
       <motion.img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+        src="/sesame-logo.png"
         initial={{
           y: -100,
           opacity: 0,
         }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="h-32 w-32 object-cover object-center xl:h-[200px] xl:w-[200px]"
+        className="h-32 w-32 rounded-lg object-cover object-center xl:h-[200px] xl:w-[200px]"
       />
 
       <div className="px-0 md:px-10">
